@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
     background: var(--default);
     margin: 0;
     padding: 0;
@@ -7,6 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Noto Serif Georgian', serif;
 }
 
 :root {
@@ -38,7 +38,8 @@ body {
     text-transform: uppercase;
     display: grid;
     place-items: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Noto Serif Georgian', serif;
+    font-weight: 400;
     font-size: 2.4rem;
 }
 
